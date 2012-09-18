@@ -14723,7 +14723,7 @@
     <key>MapShowGridCoordinates</key>
     <map>
       <key>Comment</key>
-      <string>Show Map Cords</string>
+      <string>Show Map Coords</string>
       <key>Persist</key>
       <integer>1</integer>
       <key>Type</key>
