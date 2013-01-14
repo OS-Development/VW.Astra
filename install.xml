@@ -725,9 +725,9 @@
             <key>md5sum</key>
             <string>4f787437a5e063ccde6637dfb1ebc01d</string>
             <key>url</key>
-			<uri>https://bitbucket.org/Ansariel/phoenix-prebuilts/downloads/google_perftools-1.8-windows-20111005.tar.bz2</uri>
+            <uri>https://www.avination.com/viewerfiles/google_perftools-1.8-windows-20111005.tar.bz2</uri>
           </map>
-        </map>
+		</map>
       </map>
       <key>gstreamer</key>
       <map>
@@ -828,11 +828,11 @@
           <key>windows</key>
           <map>
             <key>md5sum</key>
-            <string>1eb49bf9bcce30f5fe0dddaed2a3c628</string>
+            <string>bbaf7035a4a5b59153f18bca1d8fa107</string>
             <key>url</key>
-            <uri>http://imprudenceviewer.org/download/libs/windows_hunspell.tar.bz2</uri>
-          </map>
-          <key>linux</key>
+            <uri>https://github.com/downloads/LightDrake/Public-Libraries/hunspell-windows-20120704.tar.bz2</uri>
+          </map>          
+		  <key>linux</key>
           <map>
             <key>md5sum</key>
             <string>dbe264ef2e932980e31db646ea29bbe7</string>
