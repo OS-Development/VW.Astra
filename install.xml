@@ -1092,30 +1092,23 @@ anguage Infrstructure (CLI) international standard</string>
           <key>darwin</key>
           <map>
             <key>md5sum</key>
-            <string>9bedf2f283e899652a5e7ac6ea3d6a08</string>
+            <string>13f9be04ba029d19f822abdcb755c700</string>
             <key>url</key>
-            <uri>https://github.com/downloads/LightDrake/Public-Libraries/llqtwebkit-4.7.1-darwin-20120228.tar.bz2</uri>
+            <uri>http://viewer-source-downloads.s3.amazonaws.com/install_pkgs/llqtwebkit-darwin-4.7.1-20110302.tar.bz2</uri>
           </map>
           <key>linux</key>
           <map>
             <key>md5sum</key>
-            <string>307fdcc100ba95cfb12f35aab4fd0d08</string>
+            <string>a5e3a65ef2b313950417d867c1f57b3a</string>
             <key>url</key>
-            <uri>https://github.com/downloads/LightDrake/Public-Libraries/llqtwebkit-4.7.1-linux-20120228.tar.bz2</uri>
-          </map>
-          <key>linux64</key>
-          <map>
-            <key>md5sum</key>
-            <string>c6f662eaa9aeaf03f73779393640f386</string>
-            <key>url</key>
-            <uri>https://github.com/downloads/LightDrake/Public-Libraries/llqtwebkit-linux-x86_64-20120716.tar.bz2</uri>
+            <uri>http://downloads.phoenixviewer.com/llqtwebkit-4.7.1-linux-20110709.tar.bz2</uri>
           </map>
           <key>windows</key>
           <map>
             <key>md5sum</key>
-            <string>ccb96fa1260ef6c3060d407b8c6b3972</string>
+            <string>7cc9626ff4ac035f8605c996d18ea6a9</string>
             <key>url</key>
-            <uri>https://github.com/downloads/LightDrake/Public-Libraries/llqtwebkit-4.7.1-windows-20120228.tar.bz2</uri>
+            <uri>http://viewer-source-downloads.s3.amazonaws.com/install_pkgs/llqtwebkit-windows-qt4.7.1-20110302.tar.bz2</uri>
           </map>
         </map>
       </map>
