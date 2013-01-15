@@ -1,0 +1,16 @@
+Changelog Astra Viewer 
+======================
+Version 1.6.5.3
+
++ Added the new Notifications that SL sends out
++ Changed the way Windlight settings are stored
+
+- Removed some dead code
+
+Version 1.6.4.1
+
++ Added the Show Grid Coordinates
++ Added a new set of Windlight settings
+
+
+Versions before 1.6.4.1 were done and released without knowledge of the current development team
