@@ -1092,23 +1092,30 @@ anguage Infrstructure (CLI) international standard</string>
           <key>darwin</key>
           <map>
             <key>md5sum</key>
-            <string>c983326e0fbe1b77ffc9e006a4c9bee2</string>
+            <string>9bedf2f283e899652a5e7ac6ea3d6a08</string>
             <key>url</key>
-            <uri>https://github.com/downloads/siana/SingularityViewer/llqtwebkit-4.7.1-darwin-20110317.tar.bz2</uri>
+            <uri>https://github.com/downloads/LightDrake/Public-Libraries/llqtwebkit-4.7.1-darwin-20120228.tar.bz2</uri>
           </map>
           <key>linux</key>
           <map>
             <key>md5sum</key>
-            <string>5d743c93b970abe685b185de83001a6e</string>
+            <string>307fdcc100ba95cfb12f35aab4fd0d08</string>
             <key>url</key>
-            <uri>http://s3.amazonaws.com/viewer-source-downloads/install_pkgs/llqtwebkit-linux-qt4.6-20100923.tar.bz2</uri>
+            <uri>https://github.com/downloads/LightDrake/Public-Libraries/llqtwebkit-4.7.1-linux-20120228.tar.bz2</uri>
+          </map>
+          <key>linux64</key>
+          <map>
+            <key>md5sum</key>
+            <string>c6f662eaa9aeaf03f73779393640f386</string>
+            <key>url</key>
+            <uri>https://github.com/downloads/LightDrake/Public-Libraries/llqtwebkit-linux-x86_64-20120716.tar.bz2</uri>
           </map>
           <key>windows</key>
           <map>
             <key>md5sum</key>
-            <string>999b265a3af47eb13e9a380d042a1763</string>
+            <string>ccb96fa1260ef6c3060d407b8c6b3972</string>
             <key>url</key>
-            <uri>https://github.com/downloads/siana/SingularityViewer/llqtwebkit-4.7.1-windows-20110320.tar.bz2</uri>
+            <uri>https://github.com/downloads/LightDrake/Public-Libraries/llqtwebkit-4.7.1-windows-20120228.tar.bz2</uri>
           </map>
         </map>
       </map>
