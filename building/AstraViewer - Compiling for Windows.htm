@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<title>AstraViewer:Compiling Windows - Mattos-Wiki</title>
+<meta name="generator" content="MediaWiki 1.17.0" />
+<link rel="shortcut icon" href="/web/20120321184531im_/http://aurora-sim.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/web/20120321184531/http://aurora-sim.org/wiki/opensearch_desc.php" title="Mattos-Wiki (en-gb)" />
+<link rel="EditURI" type="application/rsd+xml" href="/web/20120321184531/http://aurora-sim.org/wiki/api.php?action=rsd" />
+<link title="Creative Commons" type="application/rdf+xml" href="/web/20120321184531/http://aurora-sim.org/wiki/index.php?title=AstraViewer%3ACompiling_Windows&action=creativecommons" rel="meta" />
+<link title="Dublin Core" type="application/rdf+xml" href="/web/20120321184531/http://aurora-sim.org/wiki/index.php?title=AstraViewer%3ACompiling_Windows&action=dublincore" rel="alternate meta" />
+<link rel="copyright" href="/web/20120321184531/http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Mattos-Wiki Atom feed" href="/web/20120321184531/http://aurora-sim.org/wiki/index.php?title=Special%3ARecentChanges&feed=atom" />
+<link rel="stylesheet" href="/web/20120321184531cs_/http://aurora-sim.org/wiki/load.php?debug=false&lang=en-gb&modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/wiki/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr ns-0 ns-subject page-AstraViewer_Compiling_Windows skin-vector">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">AstraViewer:Compiling Windows</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+				<!-- tagline -->
+				<div id="siteSub">From Mattos-Wiki</div>
+				<!-- /tagline -->
+				<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav">
+					Jump to: <a href="/web/20120321184531/http://aurora-sim.org/wiki/index.php?title=AstraViewer%3ACompiling_Windows#mw-head">navigation</a>,
+					<a href="/web/20120321184531/http://aurora-sim.org/wiki/index.php?title=AstraViewer%3ACompiling_Windows#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodytext -->
+				<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="/web/20120321184531/http://aurora-sim.org/wiki/index.php?title=AstraViewer%3ACompiling_Windows#Software_Requirements"><span class="tocnumber">1</span> <span class="toctext">Software Requirements</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="/web/20120321184531/http://aurora-sim.org/wiki/index.php?title=AstraViewer%3ACompiling_Windows#Compiling.C2.A0"><span class="tocnumber">2</span> <span class="toctext">Compiling&#160;</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="/web/20120321184531/http://aurora-sim.org/wiki/index.php?title=AstraViewer%3ACompiling_Windows#2nd_Compile_to_build_sound.2Ffmod"><span class="tocnumber">3</span> <span class="toctext">2nd Compile to build sound/fmod</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="/web/20120321184531/http://aurora-sim.org/wiki/index.php?title=AstraViewer%3ACompiling_Windows#Troubleshooting"><span class="tocnumber">4</span> <span class="toctext">Troubleshooting</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="/web/20120321184531/http://aurora-sim.org/wiki/index.php?title=AstraViewer%3ACompiling_Windows#Result"><span class="tocnumber">5</span> <span class="toctext">Result</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Software_Requirements"> <b>Software Requirements</b>  </span></h2>
+<p>Python 2.7 &gt;- <a href="/web/20120321184531/http://www.python.org/getit/releases/2.7.2/" class="external autonumber" rel="nofollow">[1]</a><br /> Quicktime SDK &gt;- <a href="/web/20120321184531/http://developer.apple.com/quicktime/" class="external autonumber" rel="nofollow">[2]</a> (registration required)<br /> TortoiseGIT &gt;- <a href="/web/20120321184531/http://opensimulator.org/wiki/Using_Git" class="external autonumber" rel="nofollow">[3]</a><br /> CMake 2.8.5 &gt;- <a href="/web/20120321184531/http://www.cmake.org/cmake/resources/software.html" class="external autonumber" rel="nofollow">[4]</a><br />Also make sure that both CMake and Python are present in the PATH of the system<br /> Control Panel &gt;- System &gt;- Advanced system settings &gt;- Environment Variables<br /> in system Variables (add to your PATH) if not there<br /> example&#160;: C:\Python 27;C:\Program Files\CMake 2.8\bin 
+</p>
+<hr />
+<p><br />Visual Studio C++ 2008 Express <a href="/web/20120321184531/https://www.dreamspark.com/Products/product.aspx?productid=9&wa=wsignin1.0&lc=1033" class="external autonumber" rel="nofollow">[5]</a><br /> Visual Studio C++ 2010 Express <a href="/web/20120321184531/http://www.microsoft.com/visualstudio/en-us/products/2010-editions/express" class="external autonumber" rel="nofollow">[6]</a><br /> Visual C++ 2010 Redistributable Package <a href="/web/20120321184531/http://www.microsoft.com/download/en/confirmation.aspx?id=5555" class="external autonumber" rel="nofollow">[7]</a> Not higher than version 10.0.30319 
+</p>
+<hr />
+<p><br />Direct X SDK (June 2010) (required for direct input) <a href="/web/20120321184531/http://www.microsoft.com/download/en/details.aspx?id=6812" class="external autonumber" rel="nofollow">[8]</a><br /> Windows 7 SDK (Optional but recommended) &gt;- <a href="/web/20120321184531/http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=3138" class="external autonumber" rel="nofollow">[9]</a>&#160; 
+</p>
+<hr />
+<p>Unicode NSIS (builds the exe file)HomePage <a href="/web/20120321184531/http://www.scratchpaper.com/" class="external autonumber" rel="nofollow">[10]</a><br /> Unicode-setup.exe <a href="/web/20120321184531/http://code.google.com/p/unsis/downloads/detail?name=nsis-2.46-Unicode-setup.exe&can=2&q=" class="external autonumber" rel="nofollow">[11]</a> 
+</p>
+<h2> <span class="mw-headline" id="Compiling.C2.A0"> <br /><b>Compiling</b>&#160;  </span></h2>
+<p>If using Visual Studio Command Prompt then: -<br />
+cd C:/viewer/AstraViewer/indra<br />
+develop.py configure -DLL_FMOD:BOOL=ON -DPACKAGE:BOOL=ON<br />
+<br />
+Use the command prompt if you have more than one Visual Studio on your machine.<br />
+==
+<br /> cd /c/viewer (using Git Bash)<br /> git clone <a href="/web/20120321184531/https://github.com/aurora-sim/AstraViewer.git" class="external free" rel="nofollow">https://github.com/aurora-sim/AstraViewer.git</a><br /> cd \viewer\AstraViewer\indra<br /> run dev clean<br /> run dev with fmod 
+</p><p>Startup VS C++ (Run As Administrator)<br />Load .sln from file &gt; Project/Solution<br /> make sure C++ is set to ReleaseSSE2&#160;<br /> "prepare" Build Only prepare<br /> THEN<br /> go in astra folder<br /> there is a vc90libs.rar<br /> unzip it and exctract it in "here" it will overwrite the "libraries" folder<br /> <br /> SET astrviewer project as startup project should be in <b>bold</b> <br /> <br /> right click on astraviewer project<br /> select properties<br /> then build events<br /> clear pre build (remove the info from both lines)&#160;&lt;- Express Edition Only <br /> 
+</p><p>clear post build (remove the info from both lines)&#160;&lt;- Express Edition Only <br /> right click on astraviewer project and select properties 
+</p><p>Configuration Properties &gt; C++ &gt; Command lines &gt; Additional options<br /> 
+</p><p>change /Zm1000 /MP /c /Zc:forScope /Oy-&#160;<br /> TO /Zm500 /MP /c /Zc:forScope /Oy-<br /> 
+</p><p><br /> Apply<br /> F7 (Build Solution)<br />
+</p>
+<h2> <span class="mw-headline" id="2nd_Compile_to_build_sound.2Ffmod"> <b>2nd Compile to build sound/fmod</b>  </span></h2>
+<p>run dev clean<br /> then run dev with fmod<br /> dev<br /> 
+</p><p>Just leave VS C++ open or &#160;Run As Administrator.<br /> right click on astraviewer project<br /> select properties<br /> then build events<br /> clear pre build (remove the info from both lines) &lt;- Express Edition Only<br /> clear post build (remove the info from both lines)&#160;&lt;- Express Edition Only<br /> right click on astraviewer project and select properties<br /> Configuration Properties &gt; C++ &gt; Command lines &gt; Additional options<br /> change /Zm1000 /MP /c /Zc:forScope /Oy- <br /> TO /Zm500 /MP /c /Zc:forScope /Oy-<br /> Apply <br /> F7 (Build Solution)<br /> 
+</p>
+<h2> <span class="mw-headline" id="Troubleshooting"> <b>Troubleshooting</b>  </span></h2>
+<p><b>heapspace error</b><br /> Wait for build to finish and F7/Build again. 
+</p><p><br /> <b>Stops respawn cmd.exe error</b><br /> <a href="/web/20120321184531/http://www.interact-sw.co.uk/iangblog/2005/09/12/cmdspawnerror" class="external free" rel="nofollow">http://www.interact-sw.co.uk/iangblog/2005/09/12/cmdspawnerror</a><br /> Tools &gt;- VC++ Directory <br /> $(SystemRoot)\System32<br /> $(SystemRoot)<br /> $(SystemRoot)\System32\wbem 
+</p>
+<h2> <span class="mw-headline" id="Result"> <br /><b>Result</b>  </span></h2>
+<p>Approx 3hours to build once, No Sound,<br /> OS &#160;: Vista HE /32bit<br /> CPU&#160;: Intel(R) CPU 2140 @ 1.60GHz, 1596 Mhz, 2 Core(s), 2 Logical Processor(s)<br /> RAM&#160;: 2GB<br /> Compiler: C++ 2008 Express
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 18/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+</body>
+</html>
