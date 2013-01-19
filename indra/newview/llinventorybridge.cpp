@@ -2369,6 +2369,9 @@ LLUIImagePtr LLFolderBridge::getIcon() const
 	case LLFolderType::FT_CURRENT_OUTFIT:
 		control = "inv_folder_outfit.tga";
 		break;
+	case LLFolderType::FT_MESH:
+		control = "inv_folder_mesh.tga";
+		break;
 	default:
 		control = "inv_folder_plain_closed.tga";
 		break;

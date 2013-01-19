@@ -96,7 +96,7 @@ LLFolderDictionary::LLFolderDictionary()
 	addEntry(LLFolderType::FT_OUTFIT, 				new FolderEntry("outfit",	FALSE));
 	addEntry(LLFolderType::FT_MY_OUTFITS, 			new FolderEntry("my_otfts",	TRUE));
 	addEntry(LLFolderType::FT_INBOX, 				new FolderEntry("inbox",	TRUE));
-		 
+	addEntry(LLFolderType::FT_MESH,					new FolderEntry("mesh",		TRUE));	 
 	addEntry(LLFolderType::FT_NONE, 				new FolderEntry("-1",		FALSE));
 };
 
