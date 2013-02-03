@@ -4,10 +4,11 @@
 (_ A _ (_(_ S _ (_(_ T _ (_(_ R _ (_(_ A _ (_ 
   |_( )__| |_( )__| |_( )__| |_( )__| |_( )__|
 
-Astra Viewer is a Second Life protocol compatible client application. It
-can be used to access Second Life service as well as a number of other such as
-those based upon OpenSim plattform. It is directly based upon source code of 
-Ascent Viewer by Balseraph Software Group, which is in turn based upon source 
-code released by Linden Lab, with contributions from various sources.
+Astra Viewer is a Second Life protocol compatible client application.
+
+It can be used to access a number of grids that use the AuroraSim platform.
+
+It is directly based upon source code of Ascent Viewer by Balseraph Software Group, 
+which is in turn based upon source code released by Linden Lab, with contributions from various sources.
 
 Due to changes in other v1 viewers, I have decided to resurrect Astra
