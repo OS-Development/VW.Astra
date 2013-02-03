@@ -2,32 +2,31 @@
   <array>
 
     <map>
-      <key>default_grids_version</key><string>2</string>
+      <key>default_grids_version</key><string>3</string>
     </map>
-
 
     <!-- Nova -->
     <map>
       <key>gridname</key>
-      <string>Nova...Powered by Aurora-Sim</string>
+      <string>AuroraScape</string>
       <key>platform</key>
       <string>Aurora</string>
       <key>loginuri</key>
-      <string>http://aurora.4d-web.eu:8002/</string>
+      <string>http://login.aurorascape.com:8002/</string>
       <key>helperuri</key>
-      <string>http://aurora.4d-web.eu:8002/</string>
+      <string>http://login.aurorascape.com::8002/</string>
       <key>loginpage</key>
-      <string>http://aurora.4d-web.eu/cool/loginscreen</string>
+      <string>http://login.aurorascape.com/welcomescreen/</string>
       <key>search</key>
-      <string>http://aurora.4d-web.eu</string>
+      <string>http://search.aurorascape.com/</string>
       <key>support</key>
-      <string>http://aurora.4d-web.eu/cool/index.php?page=chat</string>
+      <string>http://support.aurorascape.com/</string>
       <key>website</key>
-      <string>http://aurora.4d-web.eu</string>
+      <string>http://aurorascape.com/</string>
       <key>password</key>
-      <string>http://aurora.4d-web.eu/cool/index.php?page=forgotpass</string>
+      <string>http://login.aurorascape.com/</string>
       <key>register</key>
-      <string>http://aurora.4d-web.eu/cool/index.php?page=register</string>
+      <string>http://login.aurorascape.com/</string>
       <key>render_compat</key>
       <boolean>1</boolean>
     </map>
