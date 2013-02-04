@@ -138,8 +138,8 @@ TOOLMEDIAOPEN           CURSOR                  "toolmediaopen.cur"
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,5,0,0
- PRODUCTVERSION 1,5,0,0
+ FILEVERSION 1,6,6,1
+ PRODUCTVERSION 1,6,6,1
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -156,12 +156,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Astra Dev Team"
             VALUE "FileDescription", "Astra Viewer"
-            VALUE "FileVersion", "1.6.4.1"
-            VALUE "InternalName", "Second Life"
-            VALUE "LegalCopyright", "Copyright © 2001-2010, Linden Research, Inc., Copyright 2011-2012 Astra Dev Team"
+            VALUE "FileVersion", "1.6.6.1"
+            VALUE "InternalName", "Astra Viewer"
+            VALUE "LegalCopyright", "Copyright ï¿½ 2001-2010, Linden Research, Inc., Copyright 2011-2013 Astra Dev Team"
             VALUE "OriginalFilename", "Astra.exe"
             VALUE "ProductName", "Astra Viewer"
-            VALUE "ProductVersion", "1.6.4.1"
+            VALUE "ProductVersion", "1.6.6.1"
         END
     END
     BLOCK "VarFileInfo"
