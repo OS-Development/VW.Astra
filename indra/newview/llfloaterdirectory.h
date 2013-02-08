@@ -46,11 +46,9 @@ class LLPanelDirFindAll;
 class LLPanelDirFindAllOld;
 class LLPanelDirGroups;
 class LLPanelDirLand;
-class LLPanelDirMarketplace;
 class LLPanelDirPeople;
 class LLPanelDirPlaces;
 class LLPanelDirPopular;
-class LLPanelDirShowcase;
 
 class LLPanelAvatar;
 class LLPanelEvent;
@@ -104,12 +102,10 @@ private:
 	static void* createClassified(void* userdata);
 	static void* createEvents(void* userdata);
 	static void* createShowcase(void* userdata);
-	static void* createPopularPlaces(void* userdata)
 	static void* createPlaces(void* userdata);
 	static void* createLand(void* userdata);
 	static void* createPeople(void* userdata);
 	static void* createGroups(void* userdata);
-	static void* createMarketplace(void* userData);
 	static void* createFindAllOld(void* userdata);
 
 	static void* createClassifiedDetail(void* userdata);

@@ -330,11 +330,9 @@ set(viewer_SOURCE_FILES
     llpaneldirfind.cpp
     llpaneldirgroups.cpp
     llpaneldirland.cpp
-    llpaneldirmarketplace.cpp
-	llpaneldirpeople.cpp
+    llpaneldirpeople.cpp
     llpaneldirplaces.cpp
     llpaneldirpopular.cpp
-	llpaneldirshowcase.cpp
     llpaneldisplay.cpp
     llpanelevent.cpp
     llpanelface.cpp
@@ -829,11 +827,9 @@ set(viewer_HEADER_FILES
     llpaneldirfind.h
     llpaneldirgroups.h
     llpaneldirland.h
-	llpaneldirmarketplace.h
     llpaneldirpeople.h
     llpaneldirplaces.h
     llpaneldirpopular.h
-	llpaneldirshowcase.h
     llpaneldisplay.h
     llpanelevent.h
     llpanelface.h
