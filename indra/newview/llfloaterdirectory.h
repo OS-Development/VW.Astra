@@ -104,7 +104,7 @@ private:
 	static void* createClassified(void* userdata);
 	static void* createEvents(void* userdata);
 	static void* createShowcase(void* userdata);
-	static void* createPopularPlaces(void* userdata)
+	static void* createPopularPlaces(void* userdata);
 	static void* createPlaces(void* userdata);
 	static void* createLand(void* userdata);
 	static void* createPeople(void* userdata);
