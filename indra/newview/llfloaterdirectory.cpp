@@ -94,8 +94,7 @@ LLFloaterDirectory::LLFloaterDirectory(const std::string& name)
 	
 	// Build the floater with our tab panel classes
 	
-	bool enableWebSearch = gHippoGridManager->getConnectedGrid()->isSecondLife() ||
-						   !gHippoGridManager->getConnectedGrid()->getSearchUrl().empty();
+	bool enableWebSearch = !gHippoGridManager->getConnectedGrid()->getSearchUrl().empty();
 	bool enableClassicAllSearch = !gHippoGridManager->getConnectedGrid()->isSecondLife();
 
 	LLCallbackMap::map_t factory_map;
