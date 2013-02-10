@@ -329,21 +329,12 @@ void LLFloaterAbout::show(void*)
 
 static std::string get_viewer_release_notes_url()
 {
-	return "http://www.aurora-sim.org";
-	/*std::ostringstream version;
+	std::ostringstream version;
 	version <<  LL_VERSION_MAJOR
 		<< "." << LL_VERSION_MINOR
 		<< "." << LL_VERSION_PATCH
 		<< "." << LL_VERSION_BUILD;
-	LLSD query;
-
-	query["channel"] = LL_CHANNEL;
-
-	query["version"] = version.str();
-
-	std::ostringstream url;
-	url << RELEASE_NOTES_BASE_URL << LLURI::mapToQueryString(query);
-
-	return "http://ascent.balseraph.org/index.php/Ascent_" + version.str();// url.str();*/
+	
+	return "http://astraviewer.wikidot.com/Astra_" + version.str();
 }
 

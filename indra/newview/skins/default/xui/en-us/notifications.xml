@@ -4,8 +4,8 @@
     Astra Viewer
   </global>
 <global name="VIEWER_SITE">
-    http://astra.aurora-sim.org/
-  </global>
+    http://astraviewer.wikidot.com/
+</global>
 <global name="skipnexttime">
 		Don&apos;t show me this again
   </global>
