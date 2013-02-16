@@ -2042,7 +2042,7 @@
       <key>Type</key>
       <string>String</string>
       <key>Value</key>
-	  <string>http://www.aurora-sim.org</string>
+	  <string>http://viewer-releases.wikia.com/</string>
     </map>
     <key>BrowserCookiesEnabled</key>
     <map>

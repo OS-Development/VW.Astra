@@ -335,6 +335,6 @@ static std::string get_viewer_release_notes_url()
 		<< "." << LL_VERSION_PATCH
 		<< "." << LL_VERSION_BUILD;
 	
-	return "http://astraviewer.wikidot.com/Astra_" + version.str();
+	return "http://viewer-releases.wikia.com/wiki/Astra/" + version.str();
 }
 
