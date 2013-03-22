@@ -1,37 +1,12 @@
 <llsd>
   <array>
     <map>
-      <key>default_grids_version</key><string>3</string>
-    </map>
-    <!-- AuroraScape -->
-    <map>
-      <key>gridname</key>
-      <string>AuroraScape</string>
-      <key>platform</key>
-      <string>Aurora</string>
-      <key>loginuri</key>
-      <string>http://login.aurorascape.com:8002/</string>
-      <key>helperuri</key>
-      <string>http://login.aurorascape.com::8002/</string>
-      <key>loginpage</key>
-      <string>http://login.aurorascape.com:8008/welcomescreen/</string>
-      <key>search</key>
-      <string>http://search.aurorascape.com/</string>
-      <key>support</key>
-      <string>http://support.aurorascape.com/</string>
-      <key>website</key>
-      <string>http://aurorascape.com/</string>
-      <key>password</key>
-      <string>http://login.aurorascape.com/</string>
-      <key>register</key>
-      <string>http://login.aurorascape.com/</string>
-      <key>render_compat</key>
-      <boolean>1</boolean>
+      <key>default_grids_version</key><string>4</string>
     </map>
     <!-- Local Host Standalone-->
     <map>
       <key>gridname</key>
-      <string>Local Standalone</string>
+      <string>Standalone</string>
       <key>platform</key>
       <string>Aurora</string>
       <key>loginuri</key>
@@ -44,7 +19,7 @@
     <!-- Local Host Grid-->
     <map>
       <key>gridname</key>
-      <string>Local Grid</string>
+      <string>Grid</string>
       <key>platform</key>
       <string>Aurora</string>
       <key>loginuri</key>
