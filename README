@@ -6,9 +6,10 @@
 
 Astra Viewer is a Second Life protocol compatible client application.
 
-It can be used to access a number of grids that use the AuroraSim platform.
+It can be used to access a number of grids that use the AuroraSim / WhiteCore platform.
 
 It is directly based upon source code of Ascent Viewer by Balseraph Software Group, 
 which is in turn based upon source code released by Linden Lab, with contributions from various sources.
 
-Due to changes in other v1 viewers, I have decided to resurrect Astra
+Due to changes in other v1 viewers, I have decided to resurrect Astra so older grids that don't need SSA
+can still use a basic viewer.
